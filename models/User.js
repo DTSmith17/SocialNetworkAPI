@@ -1,4 +1,3 @@
-// Imports
 const { Schema, model } = require("mongoose");
 
 // User schema
@@ -37,7 +36,7 @@ const userSchema = new Schema(
   }
 );
 
-// Increases friend count in User model object when friends are added by a user
+// Increases friend count when friends are added by a user
 userSchema.virtual("friendCount").get(function () {
   return this.friends.length;
 });
@@ -45,5 +44,4 @@ userSchema.virtual("friendCount").get(function () {
 // Creates User model with userSchema
 const User = model("user", userSchema);
 
-// Exports
 module.exports = User;
