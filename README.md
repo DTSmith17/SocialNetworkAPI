@@ -1,14 +1,26 @@
-# SocialNetworkAPI
+# Social Network API
 
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
+## Description 
 
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
+This is a project which was developed for the University of Arizona Coding Bootcamp course. The application contained within is a functional backend for a proposed social networking platform. It is built with Node, MongoDB, Mongoose, ExpressJS, MomentJS, NoDemon, NoSQL, and utilizes the Model - View - Controller architecture. 
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
+## Table of Contents 
 
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+* [Usage](#usage)
+
+## Usage 
+
+Clone the repo, navigate to the root folder, run the following commands from the CLI:     
+
+Install Dependencies;    
+`npm install`
+
+Start Server;     
+`npm start`     
+
+
+
+
+
+## Documentation
+   
